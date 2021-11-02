@@ -1,0 +1,90 @@
+html{
+    background-image: url(../Images/login/pozadina.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0%;
+}
+
+body{
+    margin: 0%;
+}
+
+.skipdugme{
+    
+    margin-left: 10px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: right;
+    width: 100px;
+    height: 20px;
+    justify-content: right;
+}
+/* dsdadsa */
+.skip{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: white;
+}
+
+.loginikona{
+    align-items: center;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.textlogin{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.textlogin p{
+    font-weight: 1000;
+}
+
+.brojtel{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.polje-za-tel{
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+    box-shadow: none;
+}
+
+.dugme-container{
+    padding-left: 28px;
+    margin-bottom: 20px;
+}
+
+.dugmenext{
+    margin: 20px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 20px;
+	align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: none;
+}
+
+.neuspjesanlogin{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20% 20 20 20;
+    padding-left: 27%;
+    
+    }
+
+    .text-ispod-welcome{
+        font-size: 15px;
+    }

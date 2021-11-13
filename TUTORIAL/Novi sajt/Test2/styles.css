@@ -1,0 +1,12 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.child {
+    background-color: lightcoral;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+}

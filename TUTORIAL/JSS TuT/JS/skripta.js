@@ -1,7 +1,6 @@
-$(document).ready(function() {
-    $("button").addClass("animated bounce");
-    $(".text-primary").addClass("animated shake");
+var first, second, result;
+first = prompt("Enter the first number: ");
+second = prompt("Enter the second number: ");
+result = pareseInt(first) + pareseInt(second);
 
-    animated shake animated bounce btn - primary "
-    $("body").addClass("animated fadeOut");
-});
+console.log(result);

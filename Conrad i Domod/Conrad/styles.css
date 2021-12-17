@@ -1,0 +1,82 @@
+                                            .kupovina-dugmad {
+                                                display: flex;
+                                                justify-content: space-evenly;
+                                                width: 100%;
+                                            }
+                                            
+                                            .fa-shopping-cart {}
+                                            
+                                            .brzi-button {
+                                                display: block;
+                                                background: #000000;
+                                                padding-left: 15px;
+                                                padding-right: 15px;
+                                                border: none;
+                                                position: relative;
+                                                width: 100%;
+                                                font-size: 17px;
+                                                font-weight: bold;
+                                                outline: none;
+                                                cursor: pointer;
+                                                -webkit-writing-mode: horizontal-tb !important;
+                                                text-rendering: auto;
+                                                letter-spacing: normal;
+                                                word-spacing: normal;
+                                                text-indent: 0px;
+                                                text-shadow: none;
+                                                padding: 1px 6px;
+                                                height: 100%;
+                                                text-align: center;
+                                                align-items: center;
+                                                line-height: 100px;
+                                            }
+                                            
+                                            .fa-shopping-cart-brza::before {
+                                                content: "\f07a";
+                                                color: white;
+                                            }
+                                            
+                                            .fa2 {
+                                                display: inline-block;
+                                                font: normal normal normal 14px/1 FontAwesome;
+                                                font-size: inherit;
+                                                text-rendering: auto;
+                                                margin-right: 10px;
+                                                color: white;
+                                            }
+                                            
+                                            .de {
+                                                max-width: 49%;
+                                                min-height: 0%;
+                                            }
+                                            
+                                            .product-detail-info .add-to-cart-form .add-button button {
+                                                height: 100%;
+                                            }
+                                            
+                                            .text-brzi {
+                                                color: white;
+                                            }
+                                            
+                                            .e-modal1 {
+                                                font-family: Ubuntu, sans-serif;
+                                                font-size: 14px;
+                                                line-height: 1.42857143;
+                                                color: #111;
+                                                overflow-y: auto;
+                                            }
+                                            
+                                            .e-modal-dialog {
+                                                width: 450px;
+                                            }
+                                            
+                                            @media (min-width: 768px) {
+                                                .e-modal-content {
+                                                    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+                                                }
+                                            }
+                                            
+                                            .e-close {
+                                                font-size: 14px;
+                                                border-bottom-color: rgb(17 17 17 / 50%)
+                                            }

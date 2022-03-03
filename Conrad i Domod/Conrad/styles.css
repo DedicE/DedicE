@@ -1,82 +1,295 @@
-                                            .kupovina-dugmad {
-                                                display: flex;
-                                                justify-content: space-evenly;
-                                                width: 100%;
-                                            }
-                                            
-                                            .fa-shopping-cart {}
-                                            
-                                            .brzi-button {
-                                                display: block;
-                                                background: #000000;
-                                                padding-left: 15px;
-                                                padding-right: 15px;
-                                                border: none;
-                                                position: relative;
-                                                width: 100%;
-                                                font-size: 17px;
-                                                font-weight: bold;
-                                                outline: none;
-                                                cursor: pointer;
-                                                -webkit-writing-mode: horizontal-tb !important;
-                                                text-rendering: auto;
-                                                letter-spacing: normal;
-                                                word-spacing: normal;
-                                                text-indent: 0px;
-                                                text-shadow: none;
-                                                padding: 1px 6px;
-                                                height: 100%;
-                                                text-align: center;
-                                                align-items: center;
-                                                line-height: 100px;
-                                            }
-                                            
-                                            .fa-shopping-cart-brza::before {
-                                                content: "\f07a";
-                                                color: white;
-                                            }
-                                            
-                                            .fa2 {
-                                                display: inline-block;
-                                                font: normal normal normal 14px/1 FontAwesome;
-                                                font-size: inherit;
-                                                text-rendering: auto;
-                                                margin-right: 10px;
-                                                color: white;
-                                            }
-                                            
-                                            .de {
-                                                max-width: 49%;
-                                                min-height: 0%;
-                                            }
-                                            
-                                            .product-detail-info .add-to-cart-form .add-button button {
-                                                height: 100%;
-                                            }
-                                            
-                                            .text-brzi {
-                                                color: white;
-                                            }
-                                            
-                                            .e-modal1 {
-                                                font-family: Ubuntu, sans-serif;
-                                                font-size: 14px;
-                                                line-height: 1.42857143;
-                                                color: #111;
-                                                overflow-y: auto;
-                                            }
-                                            
-                                            .e-modal-dialog {
-                                                width: 450px;
-                                            }
-                                            
-                                            @media (min-width: 768px) {
-                                                .e-modal-content {
-                                                    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
-                                                }
-                                            }
-                                            
-                                            .e-close {
-                                                font-size: 14px;
-                                                border-bottom-color: rgb(17 17 17 / 50%)
-                                            }
+    .kupovina-dugmad {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .fa-shopping-cart {}
+    
+    .brzi-button {
+        display: block;
+        background: #000000;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+        position: relative;
+        width: 100%;
+        font-size: 17px;
+        font-weight: bold;
+        outline: none;
+        cursor: pointer;
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-indent: 0px;
+        text-shadow: none;
+        padding: 1px 6px;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        line-height: 100px;
+    }
+    
+    .fa-shopping-cart-brza::before {
+        content: "\f07a";
+        color: white;
+    }
+    
+    .fa2 {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .de {
+        max-width: 49%;
+        min-height: 0%;
+    }
+    
+    .product-detail-info .add-to-cart-form .add-button button {
+        height: 100%;
+    }
+    
+    .text-brzi {
+        color: white;
+    }
+    
+    .e-modal1 {
+
+        font-family: Ubuntu, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #111;
+        overflow-x: hidden;
+        overflow-y: auto;  
+        
+    }
+
+    .e-modal1.open{
+        display:block;
+        padding-right: 17px;
+        -webkit-transition: all .3s ease;
+    }
+    
+    .e-modal-dialog {
+        width: 450px;
+        margin: 100px auto;
+        margin-top: 100px;
+        margin-right: auto;
+        margin-bottom: 100px;
+        margin-left: auto;
+        -webkit-transition: all .3s ease;
+    }
+    
+    @media (min-width: 768px) {
+        .e-modal-content {
+            box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+        }
+    }
+    
+    .e-close {
+        font-size: 20px;
+        border-bottom-color: rgb(17 17 17 / 50%);
+        font-weight: 400px;
+        line-height: inherit;
+        outline-color: rgb(17, 17, 17);
+        outline-style: none;
+        outline-width: 0px;
+        padding-bottom: 1px;
+    }
+    
+    .slika-u-dialogu {
+        display: block;
+        width: 98px;
+        height: 68px;
+        margin-right: 15px;
+        float: left;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .tekst-u-dialogu {
+        margin-block-end: 0.83em;
+        font-size: 18px;
+        margin-bottom: 5px;
+        line-height: 22px;
+        font-weight: bold;
+    }
+    
+    .tekst-ispod-headera-u-dialogu {
+        list-style-image: initial;
+        list-style: none;
+    }
+    
+    .upit-dialog {
+        display: none;
+    }
+    
+    .forma-dialog {
+        padding-bottom: 20px;
+    }
+    
+    .cod-heading h3 {
+        font-weight: 700;
+        font-size: 1.17em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        line-height: 1.42857143;
+    }
+    
+    .cod-heading p {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    
+    .polja-za-ispunjavanje-brza {
+        list-style: none;
+        list-style-position: initial;
+        list-style-image: initial;
+        list-style-type: none;
+        margin-bottom: 0;
+        padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    
+    .polje1 {
+        position: relative;
+    }
+    
+    .polje1 label {
+        font-weight: 400;
+    }
+    
+    .polje1 input {
+        width: 100%;
+        border: 1px solid #d4d6d5;
+        border-top-color: rgb(212, 214, 213);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(212, 214, 213);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-bottom-color: rgb(212, 214, 213);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgb(212, 214, 213);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        font-size: 14px;
+        padding-left: 8px;
+        outline: 0;
+        height: 39px;
+        line-height: 39px;
+    }
+    
+    .polje2 label {
+        font-weight: 400;
+    }
+    
+    .polje2 a {
+        color: #bf0f0f;
+        -webkit-transition: all .3s ease;
+        text-decoration: none;
+    }
+    
+    .polje2 input {
+        display: block;
+        float: left;
+        height: 14px;
+        line-height: 39px;
+        margin-right: 5px;
+        position: relative;
+        top: -1px;
+        width: 14px;
+    }
+    
+    .dugme-posalji-brzi {
+        background: #bf0f0f;
+        background-color: rgb(191, 15, 15);
+        border-bottom-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-left-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-top-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        height: 51px;
+        line-height: 51px;
+        padding: 0 30px;
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+        outline: 0;
+        outline-color: initial;
+        outline-style: initial;
+        outline-width: 0px;
+        text-decoration: none;
+        text-decoration-line: none;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        text-transform: uppercase;
+        -webkit-transition: all .3s ease;
+    }
+    
+    .clearfix button {
+        appearance: button;
+        border-left-color: rgb(17, 17, 17);
+        border-bottom-color: rgb(17, 17, 17);
+        border-right-color: rgb(17, 17, 17);
+        border-top-color: rgb(17, 17, 17);
+        color: rgb(17, 17, 17);
+        font-weight: 400;
+        padding: 1px 6px;
+        padding-top: 1px;
+        padding-right: 6px;
+        padding-bottom: 1px;
+        padding-left: 6px;
+        position: absolute;
+        right: 5px;
+        text-decoration-color: rgb(17, 17, 17);
+        text-decoration-line: none;
+        text-decoration-thickness: auto;
+        text-decoration-style: solid;
+        text-shadow: none;
+        top: 0px;
+        color: #111;
+        -webkit-transition: all .3s ease;
+    }
+    
+    .modal-otvoren {
+        background-color: #ebebeb;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-family: Ubuntu,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #111;
+        padding-right: 17px;
+    }
+    

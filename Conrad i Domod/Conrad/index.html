@@ -3077,54 +3077,54 @@
                                         <div class="row widget-id-7572-row">
                                             <div class="col-xs-12 col-sm-6 col-md-6 widget-col widget-id-7572-col">
                                                 <div class="widget-list">
-                                                    <div class="widget widget-html" style="">
+                                                    <div class="widget widget-html">
                                                         <div class="widget-content">
                                                             <div class="plugin-html-content">
                                                                 <a href="#">
                                                                     <img alt="Secure by MasterCard image" src="https://conrad.ba/kartice/verified_by_visa.jpg" data-toggle="modal" data-target="#exampleModal">
                                                                 </a>
-                                                                <div id="cod-modal" class="modal fade in e-modal1" role="dialog" style="display: block; padding-right: 17px;">
+                                                                <div id="cod-modal" class="modal fade in e-modal1" role="dialog">
                                                                     <div class="modal-dialog e-modal-dialog">
                                                                         <div class="modal-content e-modal-content">
                                                                             <div class="modal-header clearfix">
                                                                                 <button type="button" class="close e-close" data-dismiss="modal">×</button>
-                                                                                <img class="cod-image" src="https://domod.ba/assets/photos/365x270/SAM1977.jpg" alt="Samsung Samsung Galaxy S21 SM-G991BZVDEUC">
-                                                                                <h2 class="modal-title">Samsung Galaxy S21 SM-G991BZVDEUC</h2>
-                                                                                <ul class="cod-details">
+                                                                                <img class="cod-image slika-u-dialogu" src="https://domod.ba/assets/photos/365x270/SAM1977.jpg" alt="Samsung Samsung Galaxy S21 SM-G991BZVDEUC">
+                                                                                <h2 class="modal-title tekst-u-dialogu">Samsung Galaxy S21 SM-G991BZVDEUC</h2>
+                                                                                <ul class="cod-details tekst-ispod-headera-u-dialogu">
                                                                                     <li>Šifra: <strong>SAM1977</strong></li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div class="modal-body">
                                                                                 <div class="cod-heading">
-                                                                                    <h3>Brza kupovina jednim klikom</h3>
+                                                                                    <h3 class="">Brza kupovina jednim klikom</h3>
                                                                                     <p>Unesite potrebne podatke i naši operateri će Vas ubrzo pozvati.</p>
                                                                                 </div>
-                                                                                <div class="cod-success">
+                                                                                <div class="cod-success upit-dialog">
                                                                                     <i class="fa fa-truck"></i>
                                                                                     <h3>Vaš upit je zaprimljen!</h3>
                                                                                     <p>Naši operateri će Vas ubrzo kontaktirati.</p>
                                                                                 </div>
-                                                                                <form class="default-form form cod-form js-validate" novalidate="novalidate">
+                                                                                <form class="default-form form cod-form js-validate forma-dialog" novalidate="novalidate">
                                                                                     <input type="hidden" name="code" value="SAM1977" required="" aria-required="true">
-                                                                                    <ul>
-                                                                                        <li class="form-group">
+                                                                                    <ul class="polja-za-ispunjavanje-brza">
+                                                                                        <li class="form-group polje1">
                                                                                             <label>Ime i prezime</label>
-                                                                                            <input class="form-e" type="text" maxlength="100" name="name">
+                                                                                            <input class="form-e valid" type="text" maxlength="100" name="name">
                                                                                         </li>
-                                                                                        <li class="form-group">
+                                                                                        <li class="form-group polje1">
                                                                                             <label>Broj telefona *</label>
-                                                                                            <input class="form-e" type="text" maxlength="20" name="phone" required="required" aria-required="true">
+                                                                                            <input class="form-e error" type="text" maxlength="20" name="phone" required="required" aria-required="true" aria-invalid="true"><label id="phone-error" class="error" for="phone">Ovo polje je obavezno.</label>
                                                                                         </li>
-                                                                                        <li class="form-group">
+                                                                                        <li class="form-group polje1">
                                                                                             <label>E-mail</label>
-                                                                                            <input class="form-e" type="email" maxlength="100" name="email">
+                                                                                            <input class="form-e valid" type="email" maxlength="100" name="email">
                                                                                         </li>
-                                                                                        <li class="form-group">
+                                                                                        <li class="form-group polje2">
                                                                                             <label for="check-terms" class="check-label">Slažem se sa <a href="/uslovi-koristenja" target="_blank">uslovima korištenja</a>.</label>
-                                                                                            <input id="check-terms" class="check-box" required="required" type="checkbox" value="1" name="terms" aria-required="true">
+                                                                                            <input id="check-terms" class="check-box error" required="required" type="checkbox" value="1" name="terms" aria-required="true"><label id="terms-error" class="error" for="terms">Ovo polje je obavezno.</label>
                                                                                         </li>
                                                                                         <li>
-                                                                                            <button type="submit" class="btn red-btn js-cod-submit">Pošalji upit</button>
+                                                                                            <button type="submit" class="btn red-btn js-cod-submit dugme-posalji-brzi">Pošalji upit</button>
                                                                                         </li>
                                                                                     </ul>
                                                                                 </form>
@@ -3736,80 +3736,62 @@ tel.:+387 033 65 58 07</strong></p>
                 });
             });
         </script>
-
-        <!-- Additional JS Files -->
-        <script src="https://conrad.ba/plugins/slideshow/assets/slick-1.8.1/slick/slick.min.js"></script>
-        <script src="https://conrad.ba/plugins/slideshow/js/script.js"></script>
-
-
-
-
-        <div class="js-cookie-consent cookie-consent">
-
-            <span class="cookie-consent__message">
-        Ova stranica koristi kolačiće. Pojedinosti možete pronaći u <a href="https://conrad.ba/page/kolacici">Pravilima o privatnosti.</a>
-    </span>
-
-            <button class="js-cookie-consent-agree cookie-consent__agree">
-        Slažem se
-    </button>
-
-        </div>
-
+        <!-- Brza kupovina -->
         <script>
-            window.laravelCookieConsent = (function() {
+            var brzi=document.getElementsByClassName("brzi-button")[0];
+            var element = document.getElementById("Modal-delete");
 
-                const COOKIE_VALUE = 1;
-                const COOKIE_DOMAIN = 'conrad.ba';
+            brzi.onclick = function (){
+                var content = document.getElementsByClassName ("e-modal1")[0];
+                var allClassNames = content.className;
 
-                function consentWithCookies() {
-                    setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
-                    hideCookieDialog();
+                if(allClassNames.indexOf("open") !== -1){
+                    content.classList.remove("open");
+                    
+                }else{
+                    content.classList.add("open");
+                    document.body.style.overflow = "hidden";
+                    document.getElementsByClassName("emir-modal")[0].className += " modal-backdrop fade in";
                 }
+            }
 
-                function cookieExists(name) {
-                    return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
-                }
+            var zatvori=document.getElementsByClassName("e-close")[0];
+            
 
-                function hideCookieDialog() {
-                    const dialogs = document.getElementsByClassName('js-cookie-consent');
-
-                    for (let i = 0; i < dialogs.length; ++i) {
-                        dialogs[i].style.display = 'none';
-                    }
-                }
-
-                function setCookie(name, value, expirationInDays) {
-                    const date = new Date();
-                    date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
-                    document.cookie = name + '=' + value +
-                        ';expires=' + date.toUTCString() +
-                        ';domain=' + COOKIE_DOMAIN +
-                        ';path=/';
-                }
-
-                if (cookieExists('laravel_cookie_consent')) {
-                    hideCookieDialog();
-                }
-
-                const buttons = document.getElementsByClassName('js-cookie-consent-agree');
-
-                for (let i = 0; i < buttons.length; ++i) {
-                    buttons[i].addEventListener('click', consentWithCookies);
-                }
-
-                return {
-                    consentWithCookies: consentWithCookies,
-                    hideCookieDialog: hideCookieDialog
-                };
-            })();
+            zatvori.onclick = function (){
+                document.getElementsByClassName("e-modal1")[0].className = "modal fade in e-modal1";
+                document.getElementsByClassName("emir-modal")[0].className = "emir-modal";  
+            }
+                  
         </script>
 
+        <script>
+            var zatvorio=document.getElementsByClassName("emir-modal")[0];
+            
+                    zatvorio.onclick = function(){
+                    document.getElementsByClassName("e-modal1")[0].className = "modal fade in e-modal1";
+                    document.getElementsByClassName("emir-modal")[0].className = "emir-modal";  
+                }
+            </script>
 
+         <!-- Additional JS Files -->
+            <script src="https://conrad.ba/plugins/slideshow/assets/slick-1.8.1/slick/slick.min.js"></script>
+            <script src="https://conrad.ba/plugins/slideshow/js/script.js"></script>
+            <div id="fb-root" class=" fb_reset">
+                <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+                    <div></div>
+                </div>
+                <div class="fb-customerchat fb_invisible_flow fb_iframe_widget" attribution="page_inbox" page_id="620457058036549" logged_in_greeting="Pozdrav! Ovdje smo kako bismo vam odgovorili na sva pitanja." logged_out_greeting="Pozdrav! Ovdje smo kako bismo vam odgovorili na sva pitanja."
+                    fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;attribution=page_inbox&amp;container_width=0&amp;current_url=https%3A%2F%2Fconrad.ba%2F&amp;local_state=%7B%22v%22%3A1%2C%22path%22%3A2%2C%22chatState%22%3A1%2C%22visibility%22%3A%22not-hidden%22%2C%22showUpgradePrompt%22%3A%22not_shown%22%7D&amp;locale=hr_HR&amp;log_id=999ed773-2394-4d29-b2b1-6e7da20703e8&amp;logged_in_greeting=Pozdrav!%20Ovdje%20smo%20kako%20bismo%20vam%20odgovorili%20na%20sva%20pitanja.&amp;logged_out_greeting=Pozdrav!%20Ovdje%20smo%20kako%20bismo%20vam%20odgovorili%20na%20sva%20pitanja.&amp;page_id=620457058036549&amp;request_time=1640783680762&amp;sdk=joey"><span style="vertical-align: bottom; width: 1000px; height: 0px;"><iframe name="f28ac9ea41c3a9c" width="1000px" height="1000px" data-testid="dialog_iframe" title="" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v7.0/plugins/customerchat.php?app_id=&amp;attribution=page_inbox&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1889931d63eec4%26domain%3Dconrad.ba%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fconrad.ba%252Ff6cf3a2e3ba7b8%26relation%3Dparent.parent&amp;container_width=0&amp;current_url=https%3A%2F%2Fconrad.ba%2F&amp;local_state=%7B%22v%22%3A1%2C%22path%22%3A2%2C%22chatState%22%3A1%2C%22visibility%22%3A%22not-hidden%22%2C%22showUpgradePrompt%22%3A%22not_shown%22%7D&amp;locale=hr_HR&amp;log_id=999ed773-2394-4d29-b2b1-6e7da20703e8&amp;logged_in_greeting=Pozdrav!%20Ovdje%20smo%20kako%20bismo%20vam%20odgovorili%20na%20sva%20pitanja.&amp;logged_out_greeting=Pozdrav!%20Ovdje%20smo%20kako%20bismo%20vam%20odgovorili%20na%20sva%20pitanja.&amp;page_id=620457058036549&amp;request_time=1640783680761&amp;sdk=joey" style="padding: 0px; position: fixed; z-index: 2147483646; border-radius: 16px; top: auto; background: none; width: 399px; bottom: 84px; max-height: calc(100% - 84px); right: 4px; margin-right: 12px; height: 418px; visibility: visible;" class=""></iframe></span></div>
+                <div class="fb_dialog  fb_dialog_advanced" alignment="right" desktop_bottom_spacing="24">
+                    <div class="fb_dialog_content"><iframe name="blank_f28ac9ea41c3a9c" width="60px" tabindex="-1" data-testid="bubble_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v7.0/plugins/customer_chat/bubble"
+                            style="animation: 0.3s ease-out 0s 1 normal none running slideInFromBottom; background: none; border-radius: 60px; bottom: 24px; box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px; display: block; height: 60px; margin: 0px 12px; overflow: visible; padding: 0px; position: fixed; right: 12px; top: auto; width: 60px; z-index: 2147483644;"></iframe>
+                        <iframe name="unread_f28ac9ea41c3a9c" tabindex="-1" data-testid="unread_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v7.0/plugins/customer_chat/bubble" style="background: none; border-radius: 4pt; bottom: 68px; height: 24px; position: fixed; right: 22px; width: 20px; z-index: 2147483645;"></iframe>
+                    </div>
+                </div>
+            </div>
 
-
-        <div class="fb-customerchat" attribution="page_inbox" page_id="620457058036549" logged_in_greeting='Pozdrav! Ovdje smo kako bismo vam odgovorili na sva pitanja.' logged_out_greeting='Pozdrav! Ovdje smo kako bismo vam odgovorili na sva pitanja.'></div>
-        <div class="modal-backdrop fade in"></div>
+            <div class="emir-modal"></div>
 </body>
 
 </html>

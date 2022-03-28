@@ -1,10 +1,12 @@
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+let lapscompleted = 0
 
-function sume(){
-    let totaltime = lap1 + lap2 + lap3
-    console.log(totaltime)
+function passangercount (){
+     lapscompleted = lapscompleted + 1
+     
 }
 
-sume()
+passangercount()
+passangercount()
+passangercount()
+
+console.log(lapscompleted)

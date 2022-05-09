@@ -1,8 +1,7 @@
 let lapscompleted = 0
 
-function passangercount (){
-     lapscompleted = lapscompleted + 1
-     
+function passangercount() {
+    lapscompleted = lapscompleted + 1
 }
 
 passangercount()

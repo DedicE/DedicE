@@ -33,5 +33,5 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=dedice&show_icons=true&locale=en&layout=compact" alt="dedice" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dedice&show_icons=true&locale=en" alt="dedice" /></p>
+<p class="clear">;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dedice&show_icons=true&locale=en" alt="dedice" /></p>
   </div>

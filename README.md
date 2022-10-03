@@ -11,9 +11,11 @@
 
 <div>
 <p align="center">
+    
 - 🔭 I’m currently working on **Paragon**
 
 - 🌱 I’m currently learning **React, Redux, Node.js**
+    
 </p>
 </div>
 

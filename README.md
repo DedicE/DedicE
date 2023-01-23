@@ -16,6 +16,8 @@
 
 - 🌱 I’m currently learning **React, Redux, Node.js**
     
+    [![Netlify Status](https://api.netlify.com/api/v1/badges/9feef010-4079-4231-b889-364ee41cceae/deploy-status)](https://app.netlify.com/sites/admirable-heliotrope-af0bb0/deploys)
+    
 </p>
 </div>
 
